@@ -49,8 +49,7 @@ Task 7) Add a 'reviews' property to the 'book' object, which will store an array
         Start with one review: {reviewer: "Book Critic", comment: "A comprehensive guide to JavaScript."}.
 ******************************************************************/
 book.author = ["David Flanagan", "Another Author"];
-book.reviews = {
-    reviewer: "Book Critic",
-    comment: "A comprehensive guide to JavaScript.",
-};
+book.reviews = [
+    {reviewer: "Book Critic", comment: "A comprehensive guide to JavaScript."}
+];
 console.log(book);
