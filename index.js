@@ -33,7 +33,7 @@ Task 4) The book has been assigned an ISBN number. Add a property 'ISBN' with a 
 Task 5) Modify the 'publishedYear' to 2021 as a new edition has been released.
 ******************************************************************/
 book.pageCount = 1096;
-book.ISBN = 978-1491952023;
+book.ISBN = "978-1491952023";
 book["published Year"] = 2021;
 
 /*****************************************************************
